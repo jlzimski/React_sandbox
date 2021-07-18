@@ -15,6 +15,7 @@ import Layout from '../components/Layout';
 import Popovers from '../components/Popovers';
 import ResponsiveTable from '../components/ResponsiveTable';
 import ViewContent from '../components/ViewContent';
+import Sandbox from '../components/EmptySandbox';
 
 const Sidebar = () => {
     return (
@@ -25,6 +26,7 @@ const Sidebar = () => {
                     <h4>other info</h4>
                     <h4>other info</h4>
                     <div className='sidebar-link'>
+                    <li><Link to='/Sandbox'>Sandbox</Link></li>
                     <li><Link to='/FeatureCard'>FeatureCard</Link></li>
                     <li><Link to='/ListGroups'>ListGroups</Link></li>
                     <li><Link to='/Carousel'>Carousel</Link></li>
@@ -41,6 +43,7 @@ const Sidebar = () => {
             </div>
             <div className='sidebar-route'>
                 <Switch>
+                    <Route exact path='/Sandbox'><Sandbox /></Route>
                     <Route exact path='/FeatureCard'><FeatureCard /></Route>
                     <Route exact path='/ListGroups'><ListGroups /></Route>
                     <Route exact path='/Carousel'><Carousel /></Route>

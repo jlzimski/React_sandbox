@@ -159,3 +159,9 @@ a {
 #viewcontent {
   border: 2px solid red;
 }
+
+#sandbox {
+  border: 2px solid black;
+  min-height: 100px;
+  color:cadetblue;
+}

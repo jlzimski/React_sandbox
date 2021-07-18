@@ -9,19 +9,22 @@ import Layout from '../components/Layout';
 import Popovers from '../components/Popovers';
 import ResponsiveTable from '../components/ResponsiveTable';
 import ViewContent from '../components/ViewContent'
+import Sandbox from '../components/EmptySandbox'
 
 const Home = () => {
     return (
         <div className='main'>
             <div className='mainDiv'>
                 <h1>Welcome</h1>
+                <Sandbox />
+                <br/>
+                <Carousel />
+                <br/>
                 <Forms />
                 <br/>
                 <FeatureCard />
                 <br/>
                 <ListGroups />
-                <br/>
-                <Carousel />
                 <br/>
                 <Jumbotron />
                 <br/>
