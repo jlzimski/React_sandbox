@@ -19,6 +19,7 @@ const Forms = () => {
                         </div>
                     </form>
                 </div>
+                <br/>
                 <div className="container-fluid" id="user_create">
                     <form class="row g-4">
                         <div class="col-md-6">
@@ -42,6 +43,7 @@ const Forms = () => {
                         </div>
                     </form>
                 </div>
+                <br/>
                 <div class="container-fluid" id="address">
                     <form class="row g-3">
                         <div class="col-md-6">

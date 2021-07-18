@@ -79,6 +79,11 @@ ul {
 .sidebar-route {
   flex: 1;
   padding: '00px';
+  color:aqua;
+}
+
+a {
+  color: aqua;
 }
 
 /* header */
@@ -133,4 +138,24 @@ ul {
 
 #layout {
     border: 1px solid black;
+}
+
+#jumbotron {
+  border: 2px solid red;
+}
+
+#layout {
+  border: 2px solid red;
+}
+
+#popovers {
+  border: 2px solid red;
+}
+
+#responsivetable {
+  border: 2px solid red;
+}
+
+#viewcontent {
+  border: 2px solid red;
 }

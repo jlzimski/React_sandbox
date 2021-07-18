@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'reactstrap';
 
 const Example = (props) => {
     return (
-        <div className='main'>
+        <div className='main' id='layout'>
             <div className='mainDiv' id='layout'>
             <Container>
             <Row>

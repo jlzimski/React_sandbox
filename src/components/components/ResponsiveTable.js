@@ -3,7 +3,8 @@ import { Table } from 'reactstrap';
 
 const Example = (props) => {
     return (
-        <Table responsive>
+        <div id='responsivetable'>
+            <Table responsive>
             <thead>
                 <tr>
                     <th>#</th>
@@ -45,6 +46,8 @@ const Example = (props) => {
                 </tr>
             </tbody>
         </Table>
+        </div>
+        
     );
 }
 

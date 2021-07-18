@@ -16,14 +16,22 @@ const Home = () => {
             <div className='mainDiv'>
                 <h1>Welcome</h1>
                 <Forms />
+                <br/>
                 <FeatureCard />
+                <br/>
                 <ListGroups />
+                <br/>
                 <Carousel />
+                <br/>
                 <Jumbotron />
+                <br/>
                 <Layout />
+                <br/>
                 {/* <OtherButtons /> */}
                 <Popovers />
+                <br/>
                 <ResponsiveTable />
+                <br/>
                 <ViewContent />
             </div>
         </div>

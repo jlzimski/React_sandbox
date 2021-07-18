@@ -4,7 +4,7 @@ import { Button, UncontrolledPopover, PopoverHeader, PopoverBody } from 'reactst
 
 const Example = (props) => {
     return (
-        <div>
+        <div id='popovers'>
             <Button id="PopoverFocus" type="button">
                 Launch Popover (Focus)
             </Button>

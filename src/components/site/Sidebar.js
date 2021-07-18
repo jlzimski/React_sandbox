@@ -24,6 +24,7 @@ const Sidebar = () => {
                     <h1>User Name</h1>
                     <h4>other info</h4>
                     <h4>other info</h4>
+                    <div className='sidebar-link'>
                     <li><Link to='/FeatureCard'>FeatureCard</Link></li>
                     <li><Link to='/ListGroups'>ListGroups</Link></li>
                     <li><Link to='/Carousel'>Carousel</Link></li>
@@ -34,6 +35,8 @@ const Sidebar = () => {
                     <li><Link to='/Popovers'>Popovers</Link></li>
                     <li><Link to='/ResponsiveTable'>Responsive Table</Link></li>
                     <li><Link to='/ViewContent'>ViewContent</Link></li>
+                    </div>
+
                 </ul>
             </div>
             <div className='sidebar-route'>

@@ -61,7 +61,7 @@ const Example = (props) => {
     });
 
     return (
-        <div>
+        <div id='viewcontent'>
             <style>
                 {
                     `.custom-tag {
