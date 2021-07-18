@@ -5,7 +5,7 @@ import Carousel from '../components/Carousel';
 import Forms from '../components/Forms';
 import Jumbotron  from '../components/Jumbotron';
 import Layout from '../components/Layout';
-import OtherButtons from '../components/OtherButtons';
+// import OtherButtons from '../components/OtherButtons';
 import Popovers from '../components/Popovers';
 import ResponsiveTable from '../components/ResponsiveTable';
 import ViewContent from '../components/ViewContent'
@@ -21,7 +21,7 @@ const Home = () => {
                 <Carousel />
                 <Jumbotron />
                 <Layout />
-                <OtherButtons />
+                {/* <OtherButtons /> */}
                 <Popovers />
                 <ResponsiveTable />
                 <ViewContent />
